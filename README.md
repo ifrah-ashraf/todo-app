@@ -3,9 +3,9 @@ This project was bootstrapped using `create vite@latest`
 
 
 ### This is a basic todo web-app where you can  
--Add a todo
--Edit the existing todo*
--delete the todo
+- Add a todo
+- Edit the existing todo*
+- delete the todo
 
 If you want to run locally just **copy the code** and change the directory in the terminal to **todo-app** after that just run `npm run dev` and click on the URL (using `ctrl+click`).
  
