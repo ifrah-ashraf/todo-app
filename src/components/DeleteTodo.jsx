@@ -1,5 +1,6 @@
 
 
+// eslint-disable-next-line react/prop-types
 function DeleteTodo({index , delTodo}){
     
     function handleDelete(){
@@ -12,5 +13,6 @@ function DeleteTodo({index , delTodo}){
         </>
     )
 }
+
 
 export default DeleteTodo

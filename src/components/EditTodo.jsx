@@ -5,12 +5,12 @@ function EditTodo({ index, todo, newTodo }) {
   const [newInput, setNewInput] = useState(todo);
 
   function handleClick() {
-    setEdit(true); // Move this line inside handleClick
+    setEdit(true); 
   }
 
   function handleSave() {
     newTodo(index, newInput);
-    setEdit(false); // Optionally, set edit mode to false after saving
+    setEdit(false); 
   }
 
   let content;
